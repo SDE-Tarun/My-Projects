@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Sans MS";
+  overflow: hidden;
+}
+
+body {
+  /* background-image: url("https://img.reintech.io/variants/euejmsrmfcd5xleuiz9hru0av7go/e7b4ce09c703210ab8f75b017c7eaf0951c5a95b737ee8120602845c1c1d944b"); */
+  background-image: url("https://img.freepik.com/premium-photo/colorful-background-with-green-orange-background_916191-5578.jpg");
+  background-size: cover;
+}
+
+.container {
+  height: 630px;
+  width: 500px;
+  border: 2px solid dashed;
+  border-radius: 30px;
+  margin: 80px auto;
+}
+
+h1 {
+  margin: 10px 0;
+  text-align: center;
+  font-size: 2.1rem;
+}
+
+h1 span {
+  color: saddlebrown;
+}
+
+#screen {
+  border: 2px solid black;
+  display: block;
+  margin: 20px auto;
+  font-size: 2.1rem;
+  background-color: white;
+}
+
+table {
+  margin: 0 auto;
+}
+
+td {
+  height: 80px;
+  width: 100px;
+  transition: 100ms;
+  /* border: 1px solid black; */
+}
+
+td:active {
+  transform: scale(0.8);
+}
+
+button {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  font-size: 1.5rem;
+  border-radius: 20%; /* Makes the buttons circular */
+  border: none;
+}
+
+.special-1 button {
+  background-color: darkgrey;
+}
+
+.special-2 button {
+  background-color: goldenrod;
+}
+
+.special-3 button {
+  background-color: black;
+  color: antiquewhite;
+}

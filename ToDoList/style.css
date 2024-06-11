@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("https://t4.ftcdn.net/jpg/02/71/59/05/360_F_271590577_jRMiZNhRVWGXHEa7bbIMtRhhR3SQXxW6.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.container{
+    border: 2px solid black;
+    width: 40vw;
+    margin: 250px auto;
+    padding: 20px;
+    font-size: 1.3rem;
+}
+
+h1{
+    text-align: center;
+}
+
+.inp{
+    padding: 5px;
+    width: 80%;
+    font-size: 1.3rem;
+}
+
+.btn{
+    padding: 5px;
+    width: 15%;
+    font-size: 1.3rem;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.section-B span{
+    padding: 0 12px;
+    cursor: pointer;
+}
+
+.item li{
+    display: inline;
+    list-style: none;
+}
+
+.checked{
+    text-decoration: line-through;
+}
+
+
+
+
+
+
